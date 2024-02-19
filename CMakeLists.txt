@@ -55,13 +55,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate services in the 'srv' folder
 add_service_files(
    FILES
-   answer_srv.srv
-   q_a_speech_srv.srv
-   talk_speech_srv.srv
    speech2text_srv.srv
-   hotword_srv.srv
-   conversation_srv.srv
-   chatgpt_srv.srv
  )
 
 ## Generate actions in the 'action' folder
